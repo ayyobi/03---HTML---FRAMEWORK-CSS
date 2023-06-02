@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intégration avec Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;0,700;1,700&family=Fraunces:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="container position-absolute">
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <div class="logo d-flex justify-content-center align-items-center text-uppercase">
+                <span>acs</span> 
+            </div>
+
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav align-items-center">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#">Pages</a>
+              <a class="nav-link" aria-current="page" href="#">Features</a>
+              <a class="nav-link" aria-current="page" href="#">Extensions</a>
+              <a class="nav-link" aria-current="page" href="#">Tutorials</a>
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+              <a class="nav-link social d-flex" aria-current="page" href="#"><img src="./facebook.png" alt="Facebook"/></a>
+              <a class="nav-link social d-flex mx-3" aria-current="page" href="#"><img src="./linkedin.png" alt="LinkedIn"/></a>
+              <a class="nav-link social d-flex" aria-current="page" href="#"><img src="./twitter.png" alt="Twitter"/></a>
+          
+            </div>
+          </div>
+        </div>
+      </nav>
+
+</header>
+
+<main>
+    <section class="hero d-flex justify-content-center align-items-center">
+        <h1 class="text-uppercase">
+            creatives 
+        </h1>
+
+        <div class="sdown d-flex flex-column position-absolute align-items-center">
+            <span class="mb-3">scroll down</span>
+            <img src="./scrolldown.png" alt="scroll">
+        </div>
+    </section>
+</main>
+
+    <!-- feature -->
+    <section class="feature py-5">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="text-black my-5"> WE ARE UN AWESOME AGENCY </h1>
+        </div>
+        <div class="row my-5 p-3 text-center">
+          <div class="col-lg-3 col-md-6 px-5 mb-5">
+            <img src="./facebook.png" class="write" style="width:55px;padding: 10px;"></img>
+            <h1 class="text-black">LOREM IPSUM</h1>
+            <p class="text-black mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper nulla nisi, eget venenatis felis sagittis at</p>
+          </div>
+          <div class="col-lg-3 col-md-6 px-5 mb-5 d-sm-none d-lg-block">
+            <img src="./write.png" class="write " style="font-size: 100px;padding: 10px;"></img>
+            <h1 class="text-black">LOREM IPSUM</h1>
+            <p class="text-black mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper nulla nisi, eget venenatis felis sagittis at</p>
+          </div>
+          <div class="col-lg-3 col-md-6 px-5 mb-5 d-sm-none d-lg-block">
+            <img src="./search.png" class=search " style="font-size: 100px;padding: 10px;"></img>
+            <h1 class="text-black">LOREM IPSUM</h1>
+            <p class="text-black mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper nulla nisi, eget venenatis felis sagittis at</p>
+          </div>
+          <div class="col-lg-3 col-md-6 px-5 mb-5 d-sm-none d-lg-block">
+            <img src="./say.png" class="say " style="font-size: 100px;padding: 10px;"></img>
+            <h1 class="text-black">LOREM IPSUM</h1>
+            <p class="text-black mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper nulla nisi, eget venenatis felis sagittis at</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature-end -->
+    <!-- info -->
+    <section>
+      <div class="">
+          <div class=" d-lg-flex flex-lg-row-reverse d-sm-block">
+            <div class="col-lg-6 col-sm-12 ">
+              <img src="./img01.jpg"  alt="" style="width: 100%;">
+            </div>
+            <div class="col-lg-6 col-sm-12 p-5 bg-lg-dark bg-sm-white">
+              <span class="text-lg-white text-sm-dark">Mars 22, 2023 | In Général</span>
+              <h1 class="text-lg-white text-sm-dark">LOREM IPSUM</h1>
+              <p class="text-lg-white text-sm-dark mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt sodales lectus ac aliquam. Fusce vel metus luctus, pretium orci nec, hendrerit arcu. Vivamus erat turpis, fringilla aliquam nisi vitae, venenatis sagittis nunc. Quisque hendrerit arcu eget ex semper, eget accumsan enim</p>
+            </div>
+          </div>
+          <div class="d-lg-flex flex-lg-row d-sm-block">
+            <div class="col-lg-6 col-sm-12 ">
+              <img src="./img02.jpg" alt="" style="width: 100%;">
+            </div>
+            <div class="col-lg-6 col-sm-12  p-5 bg-light ">
+              <span>Mars 22, 2023 | In Général</span>
+              <h1 class="text-dark">LOREM IPSUM</h1>
+              <p class="text-dark mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt sodales lectus ac aliquam. Fusce vel metus luctus, pretium orci nec, hendrerit arcu. Vivamus erat turpis, fringilla aliquam nisi vitae, venenatis sagittis nunc. Quisque hendrerit arcu eget ex semper, eget accumsan enim</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- info-end -->
+    <!-- card -->
+    <section class="py-5">
+      <div class="container-1">
+        <div class="text-center my-5" class="parent">
+          <h1 class="text-black" >LET US TELL YOU SOMETHING</h1>
+          <p class="text-black my-5">We love clean design and advanced digital solutions</p>
+        </div>
+          <div class="row my-5 text-center ">
+            <div class="col-lg-3 col-md-6  col-sm-12 p-5">
+              <img src="./blog01.jpg" alt="" class="img-thumbnail" style="border-top-right-radius: 50%;border-bottom-left-radius: 50%;">
+              <h2 class="my-3" style="color: #D21146;">LOREM IPSUM</h2>
+              <p class="text-black ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ex at enim mollis ultrices. Nullam imperdiet odio nisi, non auctor sem luctus sit amet. Maecenas blandit aliquet nibh.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 p-5">
+              <img src="./blog02.jpg" alt="" class="img-thumbnail" style="border-top-right-radius: 50%;border-bottom-left-radius: 50%;">
+              <h2 class="my-3" style="color: #D21146;">LOREM IPSUM</h2>
+              <p class="text-black ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ex at enim mollis ultrices. Nullam imperdiet odio nisi, non auctor sem luctus sit amet. Maecenas blandit aliquet nibh.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12  p-5">
+              <img src="./blog03.jpg" alt="" class="img-thumbnail" style="border-top-right-radius: 50%;border-bottom-left-radius: 50%;">
+              <h2 class="my-3" style="color: #D21146;">LOREM IPSUM</h2>
+              <p class="text-black ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ex at enim mollis ultrices. Nullam imperdiet odio nisi, non auctor sem luctus sit amet. Maecenas blandit aliquet nibh.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 p-5">
+              <img src="./blog01.jpg" alt="" class="img-thumbnail" style="border-top-right-radius: 50%;border-bottom-left-radius: 50%;">
+              <h2 class="my-3" style="color: #D21146;">LOREM IPSUM</h2>
+              <p class="text-black ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ex at enim mollis ultrices. Nullam imperdiet odio nisi, non auctor sem luctus sit amet. Maecenas blandit aliquet nibh.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- card-end -->
+    <!-- Contact  -->
+    <section class="">
+      <div class="">
+        <div class="col-sm-12">
+          <img src="./map.png" alt="map" style="width: 100%;">
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact  -->
+    <!-- footer -->
+    <footer >
+      <div class="bg-dark text-white d-flex justify-content-between  p-5">
+        <div class="copyright col-lg-6 col-sm-12 col-md-6">Copyright ACS Lons le Saunier - Tous droits réservés</div>
+        <div class="prepared col-lg-6 col-sm-12 col-md-6">Designed by ACSL</div>
+    </div>
+    </footer>
+    <!-- footer-end -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>   
+</body>
+</html>
